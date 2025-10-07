@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webcomponent-starter</title>
+    <script type="module" src="src/my-custom-element.ts"></script>
+    <style>
+      .mce-override {
+        /* Overriding CSS variables inside the custom element */
+        --greeting-color: green;
+        --name-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <my-custom-element class="mce-override"></my-custom-element>
+  </body>
+</html>

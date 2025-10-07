@@ -1,0 +1,25 @@
+<template id="my-custom-element">
+  <style>
+    :host {
+      --greeting-color: red;
+      --name-color: blue;
+    }
+
+    .container {
+      background-color: #D3D3D3
+    }
+
+    .greeting {
+      color: var(--greeting-color);
+    }
+
+    .name {
+      color: var(--name-color);
+    }
+  </style>
+
+  <div class="container">
+    <h1 class="greeting">Hello</h1>
+    <h1 class="name">World</h1>
+  </div>
+</template>
