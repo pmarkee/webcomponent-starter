@@ -9,17 +9,18 @@
       background-color: #D3D3D3
     }
 
-    .greeting {
+    #greeting {
       color: var(--greeting-color);
     }
 
-    .name {
+    #name {
       color: var(--name-color);
     }
   </style>
 
   <div class="container">
-    <h1 class="greeting">Hello</h1>
-    <h1 class="name">World</h1>
+    <h1>
+      <span id="greeting">Hello</span> <span id="name">World</span>!
+    </h1>
   </div>
 </template>
